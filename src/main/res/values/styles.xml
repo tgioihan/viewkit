@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DoorView">
+        <attr name="contentView" format="integer"/>
+        <attr name="viewAboveId" format="integer"/>
+        <attr name="viewBottomId" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="SlideView">
+        <attr name="slideView" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="ToogleSLideColorButton">
+        <attr name="selected_control" format="integer" />
+        <attr name="selected_bg" format="integer" />
+        <attr name="disselected_bg" format="integer" />
+        <attr name="disselected_control" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="SplashView">
+        <attr name="splash_icon" format="integer" />
+        <attr name="splash_text" format="integer" />
+    </declare-styleable>
+    <style name="BaseWhiteText">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="BoldNormalText" parent="BaseWhiteText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
